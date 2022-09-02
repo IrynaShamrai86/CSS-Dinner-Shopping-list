@@ -1,0 +1,149 @@
+#border {
+    width: 793px;
+    height: 507px;
+    background-color: #3B3F45;
+}
+
+.container1 {
+    width: 793px;
+    height: 82px;
+    background-color: #4A4F56;
+    position: absolute;
+    padding: 0 15;
+    margin: 0 auto;
+}
+
+.name {
+    position: absolute;
+    width: 276px;
+    height: 28px;
+    left: 247px;
+    font-family: "Roboto Light";
+    color: #FF8984;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.name1 {
+    position: absolute;
+    width: 139px;
+    height: 19px;
+    left: 316px;
+    top: 51px;
+
+    font-family: "Roboto Light";
+    color: #FF8984;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    position: absolute;
+    background-color: #88839E;
+    width: 534px;
+    height: 45px;
+    left: 102px;
+    top: 129px;
+}
+
+#li {
+    list-style: none;
+    position: absolute;
+    width: 119px;
+    height: 21px;
+    left: 176 px;
+
+    font-family: "Roboto Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    aline-items: center;
+    color: #FFFFFF;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+input[type=checkbox]:checked + label:before {
+    content: \2714;
+}
+
+
+
+li {
+    padding: 25px;
+}
+
+li input[type=checkbox] {
+    opacity: 0;
+    visibility: hidden;
+}
+
+label:before {
+    content: \2714;
+    display: inline-block;
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+.li + .li {
+    background-color: #88839E;
+}
+
+ul:hover {
+    background-color: #625E77;
+    transition: all .1s ease-in;
+}
+
+ul:active {
+
+ }
+
+
+.li:nth-child(even) {
+    background-color: #7A7593;
+}
+
+.container3 {
+    position: absolute;
+    background-color: #4A4F56;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 417px;
+}
+
+.name2 {
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    left: 333px;
+    top: 429px;
+    padding: 12px 223 px 12 px 204 px;
+
+    font-family: "Roboto Light";
+    color: #FF8984;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
